@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function initializeApp() {
-    const isProductsPage = window.location.pathname.includes('products.html');
+    const isProductsPage = window.location.pathname.includes('/products.html');
 
     if (isProductsPage) {
         loadCategories();
